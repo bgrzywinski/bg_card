@@ -53,7 +53,7 @@ export default function Home() {
                     />
                 </Link>
             </div>
-            <div className='flex pt-20 gap-16'>
+            <div className='flex pt-20 xl:gap-16 gap-8 mx-6 flex-wrap flex justify-center items-center'>
                 <Image
                     src="/js.svg"
                     alt="js"
