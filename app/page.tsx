@@ -40,7 +40,7 @@ export default function Home() {
                     />
                 </Link>
                 <Link
-                    href="https://www.panstwobarmanstwo.pl"
+                    href="https://panstwobarmanstwo.pl"
                     passHref
                     target="_blank"
                 >
