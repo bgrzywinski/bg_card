@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
     return (
-        <main className="h-[100vh] flex flex-col items-center justify-center pb-20">
+        <main className="h-[100vh] flex flex-col items-center justify-center">
             <div>
                 <div className='rounded-[50%] p-4 bg-white border-[10px] border-gray flex justify-center items-center'><Image src='/bg_profile.jpg' alt='bg'
                                                                                         width={150} height={150}
@@ -53,7 +53,7 @@ export default function Home() {
                     />
                 </Link>
             </div>
-            <div className='flex pt-20 xl:gap-16 gap-8 mx-6 flex-wrap flex justify-center items-center'>
+            <div className='pt-12 xl:gap-16 gap-8 mx-6 flex-wrap flex justify-center items-center'>
                 <Image
                     src="/js.svg"
                     alt="js"
